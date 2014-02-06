@@ -16,3 +16,12 @@ F:\Programming\happyBirthday\happyBirthday\obj\Debug\happyBirthday.csprojResolve
 F:\Programming\happyBirthday\happyBirthday\obj\Debug\happyBirthday.Form1.resources
 F:\Programming\happyBirthday\happyBirthday\obj\Debug\happyBirthday.Properties.Resources.resources
 F:\Programming\happyBirthday\happyBirthday\obj\Debug\happyBirthday.csproj.GenerateResource.Cache
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\bin\Debug\happyBirthday.exe.config
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.exe
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.pdb
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\bin\Debug\happyBirthday.exe
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\bin\Debug\happyBirthday.pdb
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.csprojResolveAssemblyReference.cache
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.Form1.resources
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.Properties.Resources.resources
+C:\Users\acerstudent4\Desktop\Repos\Programming\happyBirthday\happyBirthday\happyBirthday\obj\Debug\happyBirthday.csproj.GenerateResource.Cache

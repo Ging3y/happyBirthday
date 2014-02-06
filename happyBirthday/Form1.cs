@@ -32,7 +32,7 @@ namespace happyBirthday
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SoundPlayer music = new SoundPlayer("
+            
             HappyBirthday birthdayMessage = new HappyBirthday();
             string returnedMessage;
 

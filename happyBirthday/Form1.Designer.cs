@@ -41,9 +41,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(86, 216);
+            this.button2.Location = new System.Drawing.Point(82, 300);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 23);
+            this.button2.Size = new System.Drawing.Size(213, 51);
             this.button2.TabIndex = 1;
             this.button2.Text = "Summation";
             this.button2.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // noRadioButton
             // 
             this.noRadioButton.AutoSize = true;
-            this.noRadioButton.Location = new System.Drawing.Point(152, 53);
+            this.noRadioButton.Location = new System.Drawing.Point(18, 116);
+            this.noRadioButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.noRadioButton.Name = "noRadioButton";
-            this.noRadioButton.Size = new System.Drawing.Size(105, 17);
+            this.noRadioButton.Size = new System.Drawing.Size(155, 24);
             this.noRadioButton.TabIndex = 2;
             this.noRadioButton.TabStop = true;
             this.noRadioButton.Text = "No parties for me";
@@ -63,9 +65,10 @@
             // yesRadioButton
             // 
             this.yesRadioButton.AutoSize = true;
-            this.yesRadioButton.Location = new System.Drawing.Point(12, 53);
+            this.yesRadioButton.Location = new System.Drawing.Point(18, 82);
+            this.yesRadioButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.yesRadioButton.Name = "yesRadioButton";
-            this.yesRadioButton.Size = new System.Drawing.Size(115, 17);
+            this.yesRadioButton.Size = new System.Drawing.Size(167, 24);
             this.yesRadioButton.TabIndex = 3;
             this.yesRadioButton.TabStop = true;
             this.yesRadioButton.Text = "I love to party man!";
@@ -73,57 +76,62 @@
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(53, 83);
+            this.nameTextBox.Location = new System.Drawing.Point(82, 158);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(273, 26);
             this.nameTextBox.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 83);
+            this.label1.Location = new System.Drawing.Point(13, 158);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(55, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Name:";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(118, 114);
+            this.numericUpDown1.Location = new System.Drawing.Point(175, 215);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10,
             0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(180, 26);
             this.numericUpDown1.TabIndex = 7;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 116);
+            this.label2.Location = new System.Drawing.Point(13, 215);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 13);
+            this.label2.Size = new System.Drawing.Size(154, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "Number of Presents:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(18, 14);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(245, 30);
+            this.label4.Size = new System.Drawing.Size(244, 37);
             this.label4.TabIndex = 10;
             this.label4.Text = "Happy Birthday!";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(426, 403);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.numericUpDown1);
@@ -132,6 +140,7 @@
             this.Controls.Add(this.yesRadioButton);
             this.Controls.Add(this.noRadioButton);
             this.Controls.Add(this.button2);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Happy Birthday";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
