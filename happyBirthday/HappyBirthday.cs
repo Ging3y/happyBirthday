@@ -8,61 +8,31 @@ namespace happyBirthday
 {
     class HappyBirthday
     {
-        //Place Vairables
+        #region Private  Fields
         private string birthdayMessage;
-        private decimal numberOfPresents;
-        private bool havingParty;
-       
-        //  DEFAULT CONSTRUCTOR
+        private string presentString;
+        #endregion 
+
+        #region Constructor 
         public HappyBirthday()
         {
-            numberOfPresents = 0;
-           // havingParty = false;
+            presentString = "Number of presents: ";
+            birthdayMessage = "Happy Birthday ";
         }
+        #endregion
 
-
-        //METHOD
-        private string getMessage(string givenName)
+        #region Methods Region
+        public string getMessage(string givenName)
         {
-            string theMessage;
-
-            theMessage = "Happy Birthday " + givenName+ "! " + "\n";
-            theMessage += "Number of presents = " + numberOfPresents.ToString() + "\n";
-         
-
-            if (havingParty == true)
-            {
-                theMessage += "You are having a party!";
-            }
-            else
-            {
-                theMessage += "You dont have a party...";
-            }
-
-
-            return theMessage;
-
+            return birthdayMessage + givenName;
         }
 
-        //Read and write property
-        public string myName
+        public string getPresents(int numPresents)
         {
-            get { return birthdayMessage; }
-            set { birthdayMessage = getMessage(value); }
+            presentString = presentString + numPresents.ToString();
+            return presentString;
         }
 
-        //Write only property
-        public decimal PresentCount
-        {
-            set { numberOfPresents = value; }
-        }
-
-        //Write only property
-        public bool hasParty
-        {
-            set { havingParty = value; }
-        }
-
-         
+        #endregion
     }
 }
