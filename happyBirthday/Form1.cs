@@ -40,24 +40,17 @@ namespace happyBirthday
 
             returnedMessage = "";
             
-            HappyBirthday birthdayMessage = new HappyBirthday();
             BirthdayParty partyStatus = new BirthdayParty();
 
             //get name
-            returnedMessage += birthdayMessage.getMessage(nameTextBox.Text) + "\n";
+            returnedMessage += partyStatus.getMessage(nameTextBox.Text) + "\n";
 
             //get party status
             returnedMessage += partyStatus.getParty(yesRadioButton.Checked) + "\n";
 
-
-             
             //gets number of presents
-            returnedMessage += birthdayMessage.getPresents(Convert.ToInt32(numericUpDown1.Value)) + "\n";
-
-           
+            returnedMessage += partyStatus.getPresents(Convert.ToInt32(numericUpDown1.Value)) + "\n";
          
-          
-            
             MessageBox.Show(returnedMessage);
 
         }
