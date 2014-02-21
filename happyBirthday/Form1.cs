@@ -19,20 +19,14 @@ namespace happyBirthday
         string returnedMessage;
         #endregion
 
+        #region Initializer
         public Form1()
         {
             InitializeComponent();
             yesRadioButton.Checked = true;
             
         }
-
-        
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //HappyBirthday birthdayMessage = new HappyBirthday();
-            //MessageBox.Show(birthdayMessage.getMessage("Tyler"));
-
-        }
+        #endregion
 
         #region Buttonclick
         private void button2_Click(object sender, EventArgs e)
@@ -41,6 +35,7 @@ namespace happyBirthday
             returnedMessage = "";
             
             BirthdayParty partyStatus = new BirthdayParty();
+            MessageBox.Show(BirthdayParty.getNumberOfParties(), "Party Count: " + BirthdayParty.NumOfParties);
 
             //get name
             returnedMessage += partyStatus.getMessage(nameTextBox.Text) + "\n";
@@ -50,16 +45,13 @@ namespace happyBirthday
 
             //gets number of presents
             returnedMessage += partyStatus.getPresents(Convert.ToInt32(numericUpDown1.Value)) + "\n";
-         
+            returnedMessage += partyStatus.getParty(yesRadioButton.Checked, nameTextBox.Text);
             MessageBox.Show(returnedMessage);
 
         }
         #endregion 
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
+       
         
     }
 }
