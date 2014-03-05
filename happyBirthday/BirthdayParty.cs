@@ -37,10 +37,12 @@ namespace happyBirthday
             {
                 return "Enjoy your party!";
             }
+      
             else
             {
                 return "Sorry - No party for you!";
             }
+           
         }
         public string getParty(bool haveParty, string Name)
         {
@@ -50,7 +52,7 @@ namespace happyBirthday
             }
             else
             {
-                return "Sorry - No party for you, " + Name + "!";
+                return "I'm sorry you don't have a party " + Name + ".";
             }
         }
         //Part 2
